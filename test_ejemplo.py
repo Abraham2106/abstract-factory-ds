@@ -58,3 +58,8 @@ def test_nueva_familia_funciona_sin_cambiar_el_cliente():
         "Boton de alto contraste",
         "Ventana de alto contraste",
     )
+
+    resultado_claro = construir_interfaz(FabricaClara())
+    resultado_nuevo = construir_interfaz(FabricaAltoContraste())
+
+    assert resultado_claro != resultado_nuevo
