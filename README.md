@@ -7,7 +7,7 @@ Implementacion de Abstract Factory en Python. Se utilizan fabricas para crear ob
 ## Como se corre
 
 ```bash
-python demo.py
+python ejemplo.py
 ```
 
 Se vera la siguiente salida:
