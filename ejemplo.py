@@ -16,7 +16,7 @@ class FabricaInterfaz(ABC):
 
 
 class FabricaClara(FabricaInterfaz):
-    """Crea únicamente componentes del tema claro."""
+    """Crea unicamente componentes del tema claro."""
 
     def crear_boton(self):
         return BotonClaro()
@@ -26,7 +26,7 @@ class FabricaClara(FabricaInterfaz):
 
 
 class FabricaOscura(FabricaInterfaz):
-    """Crea únicamente componentes del tema oscuro."""
+    """Crea unicamente componentes del tema oscuro."""
 
     def crear_boton(self):
         return BotonOscuro()
@@ -44,17 +44,17 @@ class Boton(ABC):
 
 
 class BotonClaro(Boton):
-    """Botón de la familia clara."""
+    """Boton de la familia clara."""
 
     def dibujar(self):
-        return "Botón claro: fondo blanco y texto negro"
+        return "Boton claro: fondo blanco y texto negro"
 
 
 class BotonOscuro(Boton):
-    """Botón de la familia oscura."""
+    """Boton de la familia oscura."""
 
     def dibujar(self):
-        return "Botón oscuro: fondo negro y texto blanco"
+        return "Boton oscuro: fondo negro y texto blanco"
 
 
 class Ventana(ABC):
