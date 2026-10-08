@@ -22,6 +22,8 @@ Tema: FabricaOscura
  - Ventana oscura: panel negro y borde azul
 ```
 
+Las pruebas estan en `test_demo.py`.
+
 Para ejecutar las pruebas:
 
 ```bash
