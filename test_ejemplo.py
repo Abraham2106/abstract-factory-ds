@@ -2,7 +2,7 @@
 
 import pytest
 
-from ejemplo import (
+from demo import (
     Boton,
     BotonClaro,
     BotonOscuro,
